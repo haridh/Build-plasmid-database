@@ -10,6 +10,7 @@ base_path <- "/groups/banfield/users/haridh/Ben_Brady_collab/MagicPool/BARseq"
 
 # Two arguments needed. The first is a list of barcodes identified from BARseq and 2nd is an output prefix
 # This script works just like the Pacbio_ETseq_match.R script except for BARseq files.
+
 barseq_file <- args[1]
 barseq_pfx <- args[2]
 barseq_file_path <- paste(base_path, barseq_file, sep = "/")
